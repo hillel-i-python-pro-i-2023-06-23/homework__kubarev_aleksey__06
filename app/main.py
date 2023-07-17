@@ -6,19 +6,19 @@ from app.average import average
 
 
 def main():
-    print('Task №1: Reading a file')
+    print("Task №1: Reading a file")
     reading_a_file()
-    print('\n')
+    print("\n")
 
-    print('Task №2: Users generator')
+    print("Task №2: Users generator")
     users = users_generator()
     print_users(users, True)
-    print('\n')
+    print("\n")
 
-    print('Task №3: Who is there?\nNumber of astronauts at the moment:')
+    print("Task №3: Who is there?\nNumber of astronauts at the moment:")
     get_astronaut_count()
-    print('\n')
+    print("\n")
 
-    print('Task №4: Average')
+    print("Task №4: Average")
     average()
-    print('\n')
+    print("\n")
